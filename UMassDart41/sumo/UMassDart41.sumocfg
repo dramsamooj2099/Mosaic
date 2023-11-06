@@ -1,0 +1,10 @@
+<configuration>
+	<input>
+		<net-file value="UMassDart41.net.xml" />
+		<route-files value="UMassDart41.rou.xml" />
+	</input>
+	<time>
+		<begin value="0" />
+		<end value="1000" />
+	</time>
+</configuration>
