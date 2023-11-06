@@ -1,0 +1,44 @@
+{
+  "initialization": {
+    "waitForInitMessages": true
+  },
+  "map": "UMassDart53.osm",
+  "stepSize": "50 ms",
+  "usePhysX": false,
+  "showVisualizer": true,
+  "showRoutes": false,
+  "lidarVisualize": false,
+  "cameraPosition": {
+    "latitude": 41.630164,
+    "longitude": -71.000287
+  },
+  "vehicleTypes": {
+    "Car": {
+      "sensors": [],
+      "skills": [],
+      "features": []
+    }
+  },
+  "trajectories": {},
+  "extrapolation": {
+    "benchmarkAccuracy": false
+  },
+  "lidarNumberOfThreads": 1,
+  "lidarNoise": 0.0,
+  "lidarAbsoluteCoordinates": true,
+  "lidarFrameTransport": "RAW",
+  "defaultLidarConfiguration": {
+    "horizontalFieldOfView": 120,
+    "verticalFieldOfView": 4,
+    "horizontalResolution": 1.0,
+    "verticalResolution": 1.0,
+    "pitchOffset": 2.0,
+    "range": 200.0,
+    "samplingRate": 20.0,
+    "position": {
+      "x": 0.0,
+      "y": 0.1,
+      "z": -1.45
+    }
+  }
+}
